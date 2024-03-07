@@ -1,12 +1,19 @@
 import { Fragment } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './styles/App.scss';
+import './styles/colors.scss';
+import './styles/contact.scss';
+import './styles/Header.scss';
+import './styles/home.scss';
+import './styles/footer.scss';
+import './styles/mediaquery.scss';
+
+import Header from "./components/Header";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Services from './components/Services';
+import Footer from "./components/Footer";
 
 function App() {
   return (
